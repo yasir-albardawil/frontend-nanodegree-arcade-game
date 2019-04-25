@@ -22,7 +22,7 @@
 Using the UP, DOWN, LEFT and RIGHT keys on your keyboard, move the character to the water. Avoid the bugs, You have 3 hearts to save your life, if the player doesn't have any hearts then the player will die. There is level system to make the game fun., the level increases the difficulty of the game.
 
 ## Play it now
-[Play](frontend-nanodegree-arcade-game.netlify.com)
+[Play](https://frontend-nanodegree-arcade-game.netlify.com/)
 
 ## License
 
