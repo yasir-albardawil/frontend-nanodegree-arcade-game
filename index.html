@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="container">
+    <span id="player-level"></span>
+    <span id="player-heart">
+        <img id="heart1" src="images/Heart.png" alt="Heart image" width="30px">
+        <img id="heart2" src="images/Heart.png" alt="Heart image" width="30px">
+        <img id="heart3" src="images/Heart.png" alt="Heart image" width="30px">
+    </span>
+</div>
+<div id="instructions-bg">
+    <div id="instructions">
+        <h1 id="instructions-title">instructions</h1>
+        <span id="instructions-arrows">Use arrows to move</span>
+
+        <img src="images/keyboard-arrows.png" alt="Keyboard arrows image">
+        <div id="instructions-body">
+        </div>
+        <h2>Press space to start</h2>
+    </div>
+</div>
+<div id="winning-bg">
+    <div id="winning">
+        <div id="header">
+            <h2 id="winning-title">Congratulations!</h2>
+        </div>
+        <div id="winning-body">
+            <div id="player-star">
+                <img id="star1" src='images/Star.png' alt='Star image' height='60px'>
+                <img id="star2" src='images/Star.png' alt='Star image' height='60px'>
+                <img id="star3" src='images/Star.png' alt='Star image' height='60px'>
+            </div>
+            <p id="winning-level"></p>
+            <div id="replay">
+                <input id="next-level" type="submit" value="Next level">
+            </div>
+        </div>
+    </div>
+</div>
+<div id="shortcuts">
+    <h3 id="keyboard-shortcuts">Keyboard shortcuts:</h3>
+    <div id="shortcuts-body">
+        <img src="images/char-boy.png" alt="Char boy image" width="50px">1
+        <img src="images/char-cat-girl.png" alt="Char cat girl image" width="50px">2
+        <img src="images/char-horn-girl.png" alt="Char pink girl image" width="50px">3
+        <img src="images/char-pink-girl.png" alt="Char boy image" width="50px">4
+        <img src="images/char-princess-girl.png" alt="Char princess girl image" width="50px">5
+        <p>M to mute/unmute music</p>
+    </div>
+</div>
+<script src="js/resources.js"></script>
+<script src="js/app.js"></script>
+<script src="js/engine.js"></script>
+</body>
+</html>
