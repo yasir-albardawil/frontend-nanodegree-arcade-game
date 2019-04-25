@@ -6,6 +6,7 @@
 * [How to Run](#how-to-run)
 * [How to Play](#how-to-play)
 * [Play it now](#play-it-now)
+* [Resources](#resources)
 *  [License](#license)
  
 ## Built With
@@ -22,7 +23,12 @@
 Using the UP, DOWN, LEFT and RIGHT keys on your keyboard, move the character to the water. Avoid the bugs, You have 3 hearts to save your life, if the player doesn't have any hearts then the player will die. There is level system to make the game fun., the level increases the difficulty of the game.
 
 ## Play it now
-[Play](https://frontend-nanodegree-arcade-game.netlify.com/)
+[Play](frontend-nanodegree-arcade-game.netlify.com)
+
+## Resources
+* [MDN Web Docs](https://developer.mozilla.org/en-US/)
+* [CSS-Tricks](https://css-tricks.com/)
+* [Stackoverflow - Playing audio with javascript](https://stackoverflow.com/questions/9419263/playing-audio-with-javascript)
 
 ## License
 
